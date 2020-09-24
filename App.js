@@ -65,16 +65,16 @@
 
 // Array Function //////
 
-// let arr = [
-//   { name: "Zaid", age: 20 },
-//   { name: "Farhan", age: 30 },
-// ];
+let arr = [
+  { name: "Zaid", age: 20 },
+  { name: "Farhan", age: 30 },
+];
 
-// let filter = arr.filter(function (a) {
-//   return a.name === "Farhan";
-// });
+let filter = arr.filter(function (a) {
+  return a.age === 30;
+});
 
-// console.log(filter);
+console.log(filter);
 
 ////////// Search ///////////////
 
